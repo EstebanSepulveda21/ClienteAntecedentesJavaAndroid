@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "352926572787",
+    "firebase_url": "https://soaantecedentespenales2020a.firebaseio.com",
+    "project_id": "soaantecedentespenales2020a",
+    "storage_bucket": "soaantecedentespenales2020a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352926572787:android:f18eb098bed2bde2295786",
+        "android_client_info": {
+          "package_name": "com.example.firebase3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352926572787-beuv7vl9eb9e0jqi0dr1gckv1vufmq8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWDZMpJbgVk1DMjLcAg71kNPNlZE1QnHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352926572787-beuv7vl9eb9e0jqi0dr1gckv1vufmq8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
