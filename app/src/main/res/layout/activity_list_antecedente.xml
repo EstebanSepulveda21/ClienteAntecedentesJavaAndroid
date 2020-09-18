@@ -13,13 +13,14 @@
 
         <EditText
             android:id="@+id/txtMultiLine"
-            android:layout_width="336dp"
-            android:layout_height="488dp"
+            android:layout_width="334dp"
+            android:layout_height="357dp"
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonListar" />
 
@@ -27,11 +28,10 @@
             android:id="@+id/buttonListar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:onClick="listarAntecedentes"
+            android:layout_marginTop="120dp"
+            android:onClick="listar"
             android:text="Listar"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
@@ -46,6 +46,51 @@
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/switchCiudadanoDi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="CiudadanoDi"
+            app:layout_constraintBottom_toTopOf="@+id/txtCiudadanoDi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.526" />
+
+        <Switch
+            android:id="@+id/switchDelitoCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:text="DelitoCodigo"
+            app:layout_constraintBottom_toTopOf="@+id/txtDelitoCodigo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.526" />
+
+        <EditText
+            android:id="@+id/txtCiudadanoDi"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:ems="10"
+            android:hint="Cedula"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/buttonListar"
+            app:layout_constraintEnd_toStartOf="@+id/txtDelitoCodigo"
+            app:layout_constraintHorizontal_bias="0.437"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/txtDelitoCodigo"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hint="Codigo del delito"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/buttonListar"
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
